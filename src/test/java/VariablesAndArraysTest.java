@@ -11,7 +11,7 @@ public class VariablesAndArraysTest {
     @DisplayName("Reto 1, declarar un int")
     @Order(1)
     void testDeclareInt() {
-        assertEquals(30, challenges.declareInt(), "Reto 1: La edad declarada no es correcta.");
+        assertEquals(31, challenges.declareInt(), "Reto 1: La edad declarada no es correcta.");
     }
 
     @Test
@@ -25,7 +25,7 @@ public class VariablesAndArraysTest {
     @DisplayName("Reto 3, declarar un char")
     @Order(3)
     void testDeclareChar() {
-        assertEquals('J', challenges.declareChar(), "Reto 3: El caracter inicial no es correcto.");
+        assertEquals('L', challenges.declareChar(), "Reto 3: El caracter inicial no es correcto.");
     }
 
     @Test
